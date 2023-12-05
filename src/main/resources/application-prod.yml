@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: user-center-backend
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://106.53.184.143:3306/user_center
+    username: pale
+    password: paleblue
+  session:
+    timeout: 86400

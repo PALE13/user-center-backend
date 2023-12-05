@@ -4,12 +4,14 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/pale
-    username: root
-    password: 123456
-  # session 失效时间
+    url: jdbc:mysql://106.53.184.143:3306/user_center
+    username: pale
+    password: paleblue
   session:
     timeout: 86400
+  profiles:
+    active: prod
+
 server:
   port: 8080
   servlet:

@@ -3,7 +3,7 @@ package com.pale.usercenter.exception;
 import com.pale.usercenter.common.ErrorCode;
 
 /**
- * 自定义异常类
+ * 业务异常类
  *
  * @author pale
  */
